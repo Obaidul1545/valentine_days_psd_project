@@ -54,6 +54,11 @@ a{
 /*========= button css End============== */
 
 /* ===== title css ====== */
+
+.slider_love_shape{
+    display: none;
+}
+
 .title{
     padding: 20px 0 0 54px;
     position: relative;
