@@ -473,6 +473,11 @@ a{
     position: relative;
 }
 
+#slider_part .main_slider .slick-list{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 #slider_part .main_slider .prev{
     width: 40px;
     height: 40px;
@@ -524,14 +529,14 @@ a{
 #slider_part .main .slider_love_shape01 {
     position: absolute;
     left: -25px;
-    top: -42px;
+    top: -37px;
     z-index: 111;
 }
 
 #slider_part .main .slider_love_shape02 {
     position: absolute;
     right: -25px;
-    bottom: -41px;
+    bottom: -37px;
     z-index: 111;
     transform: rotate(180deg);
 }
@@ -540,7 +545,7 @@ a{
     padding: 40px 28px 30px;
     background: #fffae2;
     margin: 0 15px;
-    box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.056);
 }
 
 #slider_part .main_slider .slide .client{
