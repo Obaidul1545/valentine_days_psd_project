@@ -4,6 +4,12 @@
         font-size: 16px;
         padding: 12px 18px;
     }
+
+    .text p {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+    }
     /* =========================== */
 
     /* Navbar start */
@@ -123,6 +129,58 @@
     #history_part .title {
         padding: 35px 0 0 37px;
     }
+    /* ======== History End ============ */
+
+    /* ======== Gift part start ============ */
+    #gift_part .gift_text {
+        margin-left: 0;
+    }
+
+    #gift_part .image {
+        display: none;
+    }
+
+    #gift_part .title{
+        margin-bottom: 20px;
+    } 
+
+    #gift_part .title h3 {
+        margin-bottom: 0px;
+        font-size: 26px;
+    }
+
+    #gift_part {
+        padding: 30px 0;
+    }
+    /* ======== Gift End ============ */
+
+    /* ======== ticket_part start ============ */
+    #ticket_part {
+        padding: 25px 0 39px;
+        background: url(../images/ticket_img.png) no-repeat center;
+        background-size: cover;
+        z-index: -11;
+    }
+
+    #ticket_part .image {
+        display: none;
+    }
+
+    #ticket_part .title {
+        padding: 20px 0 0 0;
+        margin-bottom: 21px;
+    }
+
+    #ticket_part .title h3{
+        margin-bottom: 0px;
+    }
+
+    #ticket_part .button{
+        z-index: 11111;
+    }
+    /* ======== ticket_part End ============ */
+
+
 
 }
-    /* ======== History End ============ */
+    

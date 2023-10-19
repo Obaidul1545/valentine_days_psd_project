@@ -253,6 +253,7 @@ a{
 
 #ticket_part .image{
     margin-left: -86px;
+    display: block;
 }
 
 #ticket_part .title{
