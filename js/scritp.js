@@ -7,12 +7,10 @@ $('.main_slider').slick({
     nextArrow: '<i class="fa-solid fa-angle-right next"></i>',
     responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            slidesToShow: 2,
+            slidesToScroll: 1,
           }
         },
         {
