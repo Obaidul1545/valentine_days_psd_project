@@ -254,7 +254,7 @@
     /* ======== slider_part start ============ */
 
     #slider_part {
-        padding: 43px 0 47px;
+        padding: 43px 5px 47px;
     }
 
     #slider_part .main_slider .slide {
@@ -641,7 +641,7 @@
     /* ======== slider_part start ============ */
 
     #slider_part {
-        padding: 43px 0 47px;
+        padding: 43px 5px 47px;
     }
 
     #slider_part .main_slider .slide {
@@ -1036,7 +1036,7 @@
     /* ======== slider_part start ============ */
 
     #slider_part {
-        padding: 43px 0 47px;
+        padding: 43px 10px 47px;
     }
 
     #slider_part .main_slider .slide {
@@ -1172,7 +1172,216 @@
 
     /* ======== footer End ============ */
 }
-    
-    
-/* Extra large device Responsive */
-@media (min-width: 1200px){}
+     
+/* large device Responsive */
+@media (min-width: 922px) and (max-width: 1199.98px){
+     /* =========================== */
+ 
+     /* Navbar start */
+     .navbar {
+        padding: 0 20px;
+    }
+     /* ======== Navbar End ============ */
+ 
+     /* ======== Banner start ============ */
+     #banner_part {
+        padding: 140px 20px 20px;
+    }
+
+     #banner_part .banner_img img {
+        margin-left: 0px;
+        width: 100%;
+    }
+     /* ======== Banner End ============ */
+
+     /* ======== History start ============ */
+     
+    #history_part {
+        padding: 53px 20px 20px;
+    }
+     
+    #history_part .image img {
+        width: 100%;
+        margin-top: 42px;
+    }
+     
+
+    #history_part .title h3 {
+        margin-bottom: 25px;
+    }
+
+    #history_part .text p {
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+     /* ======== History End ============ */
+
+     /* ======== Gift part start ============ */
+     #gift_part {
+         padding: 30px 20px;
+     }
+ 
+     #gift_part .image img {
+        width: 100%;
+        transform: scale(1.2);
+        position: absolute;
+        left: -73px;
+        bottom: -16px;
+    }
+ 
+     #gift_part .title{
+         margin-bottom: 20px;
+     } 
+ 
+     #gift_part .title h3 {
+         margin-bottom: 0px;
+         font-size: 26px;
+     }
+ 
+     /* ======== Gift End ============ */
+ 
+     /* ======== ticket_part start ============ */
+     #ticket_part {
+        padding: 51px 15px 35px;
+    }
+ 
+    #ticket_part .image img {
+        width: 90%;
+        margin: 70px 0 0 71px;
+    }
+ 
+     #ticket_part .title {
+         padding: 20px 0 0 0;
+         margin-bottom: 21px;
+     }
+ 
+     #ticket_part .title h3{
+         margin-bottom: 0px;
+     }
+ 
+     #ticket_part .button{
+         z-index: 11111;
+     }
+     /* ======== ticket_part End ============ */
+ 
+     /* ======== offer_part start ============ */
+     #offer_part {
+        padding: 18px 17px 30px;
+    }
+     #offer_part .text p {
+        margin-bottom: 11px;
+        text-align: justify;
+    }
+ 
+     #offer_part .title h3 {
+        font-size: 29px;
+        text-align: justify;
+    }
+ 
+     #offer_part .services_item {
+         border-right: 0px;
+         box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+     }
+
+     #offer_part .services_item p {
+        text-align: justify;
+    }
+     /* ======== offer_part End ============ */
+ 
+     /* ======== capture_part start ============ */
+ 
+     #capture_part {
+         padding: 20px;
+     }
+
+     #capture_part .my_btn {
+	font-size: 17px;
+	padding: 14px 18px 13px;
+}
+ 
+     #capture_part .title {
+         margin-top: 17px;
+     }
+     
+     #capture_part .title h3 {
+        font-size: 27px;
+        margin-bottom: 23px;
+    }
+ 
+     #capture_part .text {
+         margin-bottom: 24px;
+     }
+     /* ======== capture_part End ============ */
+
+     /* ======== slider_part start ============ */
+ 
+     #slider_part {
+         padding: 43px 20px 100px;
+     }
+ 
+ 
+     #slider_part .main_slider .slide .slide_text p {
+         text-align: justify;
+     }
+ 
+
+ 
+     #slider_part .main .slider_love_shape01 {
+        left: -19px;
+        top: -32px;
+        width: 65px;
+    }
+ 
+    #slider_part .main .slider_love_shape02 {
+        right: -21px;
+        bottom: -32px;
+        width: 65px;
+    }
+ 
+     #slider_part .main .prev {
+         left: -13px;
+     }
+ 
+     #slider_part .main .next{
+         right: -13px;
+     } 
+     /* ======== slider_part End ============ */
+ 
+     /* ======== footer start ============ */
+    footer{
+        padding: 0 20px;
+    }
+
+    footer .newsletter {
+         padding: 19px 50px;
+     }
+ 
+     footer .newsletter .news_text i {
+         font-size: 30px;
+     }
+ 
+     footer .newsletter .news_text h2 {
+         font-size: 26px;
+         line-height: 26px;
+         margin-bottom: 0;
+     }
+ 
+     footer .newsletter .news_text p {
+         font-size: 11px;
+         line-height: 11px;
+     }
+ 
+     footer .footer_logo {
+         margin-bottom: 25px;
+     }
+ 
+     footer .footer_logo img {
+         display: inline-block;
+         margin: 30px 0 20px;
+     }
+
+     footer .follow .icon {
+         column-gap: 50px;
+     }
+     /* ======== footer End ============ */
+}
